@@ -22,6 +22,9 @@ buttons.map(button => {
                     break;
                 }
                 break;
+            case '×':
+                display.innerText += "*";
+                break;
             default:
                 if (display.innerText === "Error!") {
                     display.innerText = "";
