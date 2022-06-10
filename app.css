@@ -2,9 +2,18 @@
     --border-color: #999;
 }
 
+body {
+    background-color: #24063a;
+}
 
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    padding-top: 5vh;
+    text-align: center;
+    color: lime;
 }
 
 .container {
@@ -34,10 +43,7 @@
     background-color: #95a2ff;
 }
 
-h1 {
-    padding-top: 5vh;
-    text-align: center;
-}
+
 
 .buttons>div {
     border-top: 1px solid var(--border-color);
